@@ -1,11 +1,16 @@
 import "./App.css";
-// MAIN Challenge 1 navbar
+import Footer from "./components/Footer";
+import Jumbotron from "./components/Jumbotron";
 import Navbar from "./components/Navbar";
 
+
+// MAIN Challenge 1, 2
 const App = () => {
 return (
   <div>
-      <Navbar a href/> 
+      <Navbar />  
+      <Jumbotron />
+      <Footer />
   </div>
 )
 }
