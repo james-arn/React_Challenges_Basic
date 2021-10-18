@@ -1,10 +1,11 @@
 import "./App.css";
-import Movies from "./components/Job";
+import image from "./images/juniordev.jfif"
 
 const App = () => {
   return (
     <div>
       <Job role="Junior Developer"/>
+      <Image src />
     </div>
   );
 };
@@ -12,5 +13,9 @@ const App = () => {
 const Job = (props) => {
   return <p> I'm a {props.role}. </p>;
 };
+
+const Image = (props) => {
+  return <img src={image}/>;
+} 
 
 export default App;
