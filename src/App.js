@@ -2,7 +2,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Jumbotron from "./components/Jumbotron";
 import Navbar from "./components/Navbar";
-
+import Carousel from "./components/Carousel";
 
 // MAIN Challenge 1, 2
 const App = () => {
@@ -10,6 +10,7 @@ return (
   <div>
       <Navbar />  
       <Jumbotron />
+      <Carousel />
       <Footer />
   </div>
 )

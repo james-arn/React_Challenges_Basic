@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vh;
+  }
+
+  .carouselTile {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  }
