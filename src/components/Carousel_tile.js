@@ -1,11 +1,11 @@
 import "../App.css";
 const Corousel_tile = (props) => {
-return (
+  return (
     <div>
-        <img src={props.image}/>;
-        <h3> {props.title} </h3>
+      <img className="imageTile" src={props.image} />
+      <h3> {props.contentTitle} </h3>
     </div>
- )
-}
+  );
+};
 
 export default Corousel_tile;

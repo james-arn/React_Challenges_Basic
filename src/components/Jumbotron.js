@@ -3,7 +3,7 @@ const Jumbotron = (props) => {
 return (
     <div>
         <h1> CatNation </h1>
-        <img src={catImage}/>;
+        <img src={catImage} id = "cat" />;
     </div>
  )
 }

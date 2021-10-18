@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Jumbotron from "./components/Jumbotron";
 import Navbar from "./components/Navbar";
 import Carousel from "./components/Carousel";
+import Content from "./components/content";
 
 // MAIN Challenge 1, 2
 const App = () => {
@@ -11,6 +12,7 @@ return (
       <Navbar />  
       <Jumbotron />
       <Carousel />
+      <Content />
       <Footer />
   </div>
 )
