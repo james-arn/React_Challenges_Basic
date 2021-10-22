@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,QACI,4BACH","file":"main.9acedecc.chunk.css","sourcesContent":[".strike {\r\n    text-decoration: line-through;\r\n }"]}
